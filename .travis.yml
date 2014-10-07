@@ -16,3 +16,4 @@ script: phantomjs phantomjs/test_runner.js --no-experimental --exclude-targets=/
 
 notifications:
   email: flase
+cache: true 
