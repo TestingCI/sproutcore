@@ -13,7 +13,7 @@ before_script:
   - sleep 5 # give sc-server some time to start
 
 script: phantomjs phantomjs/test_runner.js --no-experimental --exclude-targets=/sproutcore/greenhouse
-
+build_image: shippable/minv2:beta
 
 
 
