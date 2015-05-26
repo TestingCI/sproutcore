@@ -5,7 +5,6 @@ rvm:
 
 install: true
 
-
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
@@ -15,8 +14,6 @@ before_script:
 script: phantomjs phantomjs/test_runner.js --no-experimental --exclude-targets=/sproutcore/greenhouse
 
 #build_image: shippable/minv2:beta
-
-
 
 notifications:
   email: flase
